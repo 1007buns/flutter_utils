@@ -8,9 +8,12 @@ environment:
   flutter: ">=2.5.0"
 
 dependencies:
+ 
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
+  dio: ^4.0.0 # 网络框架
+
 
 dev_dependencies:
   flutter_test:
