@@ -22,7 +22,7 @@ class CustomService extends Service {
     dio.options.headers = {
       "Access-Control-Allow-Origin": "*",
     };
-    dio.options.baseUrl = "http://v.juhe.cn"; //此处只是默认的baseUrl  可通过路由改变baseUrl
+    dio.options.baseUrl = ""; //此处只是默认的baseUrl  可通过路由改变baseUrl
 
     dio.options.connectTimeout = 10000;
     dio.options.receiveTimeout = 8000;
